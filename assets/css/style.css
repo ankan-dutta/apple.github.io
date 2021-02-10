@@ -1,37 +1,9 @@
 
 
-/*
-Author: Xpeedstudio
-Author URI: http://xpeedstudio.com
-*/
-
-/*==========================================
- 01.  PREDIFINEED (FROM 1 TO 780 )
- 02.  PRELOADER - LINE NO 786
- 03.  NAVIGATION - LINE NO 930
- 04.  HOME - LINE NO 1150
- 05.  THU FEATURE - LINE NO 1280
- 06.  THU FLIDE - LINE NO 1355
- 07.  THU SERVICE - LINE NO 1385
- 08.  PORTFOLIO - LINE NO 1444
- 09.  THU SOLUTION - LINE NO 1620
- 10.  THU TEAM - LINE NO 1658
- 11.  THU CLIENTS FEEDBACK - LINE NO 1730
- 12. THU BLOG - LINE NO 1848
- 13. THU SUBCRIBS - LINE NO 1935
- 14. FOOTER - LINE NO 2020
-==========================================*/
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 html,
 body {
-    background-color: #fff;
     font-size: 14px;
-    color: #797979;
-    width: 100%;
+   	width: 100%;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
@@ -39,29 +11,6 @@ body {
    	font-family: 'Poppins', sans-serif;
 }
 
-/*------------------------------------------------------------------*/
-/*   IE10 in Windows 8 and Windows Phone 8 Bug fix
-/*-----------------------------------------------------------------*/
-
-
-
-/*
-    Page Content
-------------------------------------------*/
-/*
-.page-content, 
-section { overflow: hidden; }*/
-
-/*
-    On Scroll Animations 
-------------------------------------------*/
-
-/*.animated { visibility: hidden; }
-.visible { visibility: visible; }*/
-
-/*
-    Spacing & Alignment 
-------------------------------------------*/
 
 .roomy-100 {
     padding-top: 100px;
@@ -104,8 +53,7 @@ section { overflow: hidden; }*/
 .text-white{color:#fff !important;;}
 .text-black{color:#000 !important;}
 
-.text-warning{}
-.text-danger{}
+
 
 .disabled{
     cursor: not-allowed;
@@ -1378,52 +1326,6 @@ Footer Section style
 
 
 
-
-/* scrollup */
-
-.scrollup{
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    opacity: .3;
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
-    color: #fff;
-    cursor: pointer;
-    background-color: #000;
-    z-index: 1000;
-    transition: opacity .5s, background-color .5s;
-    -moz-transition: opacity .5s, background-color .5s;
-    -webkit-transition: opacity .5s, background-color .5s;
-}
-
-.scrollup:hover {
-    background: #ee997b;
-    opacity: 1;
-}
-
-.scrollup i {
-    font-size: 13px;
-    position: absolute;
-    opacity: 1;
-    color: #fff;
-    left: 50%;
-    top: 50%;
-    margin-top: -7px;
-    margin-left: -6px;
-    text-decoration: none;
-
-}
-
-
-
-
-/*
-==================================================
-            About Us Page
-==================================================
-*/
 
 
 /*About home
